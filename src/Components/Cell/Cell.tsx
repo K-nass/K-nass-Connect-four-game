@@ -1,4 +1,3 @@
-import React from "react";
 import type { CellInterface } from "../Board/cell";
 
 interface BackgroundColorPlayers {

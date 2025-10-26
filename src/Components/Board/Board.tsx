@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import { useContext, useState } from "react";
 import type { Player } from "../Cell/Cell";
 import Cell from "../Cell/Cell";
 import Marker from "../Marker/Marker";
