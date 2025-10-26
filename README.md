@@ -21,24 +21,6 @@ Two players take turns dropping colored markers into columns — the first to co
 
 ♻️ Clean, modular, and reusable component structure
 
-🧩 Project Structure
-
-src/
-├── assets/
-│   └── images/                # Player markers and icons
-├── components/
-│   ├── Board/                 # Main game board
-│   │   ├── Board.tsx
-│   │   ├── checkWin.ts        # Win detection logic
-│   │   └── cell.ts            # Cell definitions
-│   ├── Cell/                  # Individual grid cell component
-│   ├── Marker/                # Floating marker preview
-│   └── PlayerCard/            # Score and player info card
-├── context/
-│   └── winnerContext.tsx      # Context to track player scores
-├── App.tsx                    # Root component
-└── main.tsx                   # App entry point
-
 🧠 Game Rules
 Players alternate turns dropping colored markers into the board.
 The marker will always fall to the lowest empty space in the selected column.
