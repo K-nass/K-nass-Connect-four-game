@@ -6,8 +6,8 @@ import { cells, type CellInterface } from "./cell";
 import { checkWin } from "./checkWin";
 import { WinnerContext } from "../../context/winnerContext";
 
-const playerOneMarker = "/src/assets/images/marker-red.svg";
-const playerTwoMarker = "/src/assets/images/marker-yellow.svg";
+const playerOneMarker = "/images/marker-red.svg";
+const playerTwoMarker = "/images/marker-yellow.svg";
 const cellWidth = 87;
 
 export default function Board() {
